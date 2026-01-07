@@ -2,6 +2,12 @@
 
 A Telegram bot that tracks and analyzes Polymarket prediction markets, automatically posting high-conviction markets to your channel.
 
+## 🔗 Official Links
+
+- **Website**: [https://polyomen.app/](https://polyomen.app/)
+- **Telegram Bot**: [@PolyOmen_bot](https://t.me/PolyOmen_bot)
+- **Channel**: [@polyomen](https://t.me/polyomen)
+
 ## 🌟 Features
 
 - **Auto-posting**: Monitors Polymarket API and posts high-conviction markets (>$50k volume or >$10k liquidity) to your Telegram channel
@@ -119,9 +125,11 @@ time.sleep(300)  # 300 seconds = 5 minutes
 - The `.gitignore` file is configured to exclude sensitive files
 - Always use environment variables for credentials
 
-## 📢 Channel
+## 📢 Official Links
 
-Follow updates at: [@polyomen](https://t.me/polyomen)
+- **Website**: [polyomen.app](https://polyomen.app/)
+- **Bot**: [@PolyOmen_bot](https://t.me/PolyOmen_bot)
+- **Channel**: [@polyomen](https://t.me/polyomen)
 
 ## 📄 License
 

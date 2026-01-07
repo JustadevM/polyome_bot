@@ -134,6 +134,7 @@ def start(message):
 
 Track and analyze Polymarket events.
 
+🌐 Website: https://polyomen.app/
 📢 Channel: @polyomen
 
 You're subscribed to alerts! 🔔"""
@@ -345,7 +346,9 @@ def help_command(message):
 /pause - Pause notifications
 /help - Show this message
 
-📢 Channel: @polyomen"""
+🔗 Links:
+🌐 https://polyomen.app/
+📢 @polyomen"""
     
     bot.reply_to(message, help_text)
 
