@@ -119,6 +119,46 @@ time.sleep(300)  # 300 seconds = 5 minutes
 3. **Auto-posting**: New markets are posted to your Telegram channel
 4. **User Interaction**: Users can interact with the bot via commands for analysis and tracking
 
+## 🚀 Deployment to Railway
+
+### Quick Deploy
+
+1. **Push to GitHub** (already done!)
+
+2. **Create Railway Project**
+   - Go to [Railway.app](https://railway.app)
+   - Click "New Project"
+   - Select "Deploy from GitHub repo"
+   - Choose `polyome_bot` repository
+
+3. **Add Environment Variables**
+   
+   In Railway dashboard, go to Variables and add:
+   ```
+   TELEGRAM_BOT_TOKEN=your_bot_token_here
+   TELEGRAM_CHANNEL_ID=-1003326210646
+   ```
+
+4. **Deploy**
+   - Railway will automatically detect the configuration
+   - The bot will start running 24/7
+
+### Deployment Files
+
+The repository includes:
+- `Procfile` - Tells Railway how to run the bot
+- `railway.json` - Railway-specific configuration
+- `runtime.txt` - Python version specification
+- `requirements.txt` - Dependencies to install
+
+### Monitoring
+
+Check your Railway dashboard for:
+- Deployment logs
+- Bot status
+- Resource usage
+- Error messages
+
 ## 🔒 Security
 
 - **Never commit `.env` file** - It contains your bot token
